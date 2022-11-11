@@ -1,0 +1,22 @@
+from chess import (
+    PAWN,
+    KNIGHT,
+    BISHOP,
+    ROOK,
+    QUEEN,
+    KING,
+)
+
+PIECE_VALUES = {
+    PAWN: 1,
+    KNIGHT: 3,
+    BISHOP: 3,
+    ROOK: 5,
+    QUEEN: 9.5,
+    KING: 1000000,
+}
+
+MATERIAL_CAT = 'MATERIAL_CAT'
+MATE_CAT = 'MATE_CAT'
+MATE_MATERIAL_CAT = 'MATE_MATERIAL_CAT'
+UNKNOWN_CAT = 'UNKNOWN_CAT'
